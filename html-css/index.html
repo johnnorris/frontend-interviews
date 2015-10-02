@@ -1,0 +1,82 @@
+<!doctype>
+
+<html language="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Page title</title>
+
+        <link type="text/css" href="style.css">
+
+        <script src="/path/to/application.js" id="myscript">
+            application.init()
+        </script>
+
+    </head>
+
+    <body>
+
+        <p class="h1">Page heading</p>
+
+        <p>A sentence containing some <b>bold text</b></p>
+
+
+        <article id="#something">
+            <p type="text">
+                <span contenteditable>Some text</span>
+                <img image="/path/to/image.jpg" width="100" alt="The image" title="The image" />
+            </p>
+        </article>
+
+        <aside aria-live="assertive">
+            <span>
+                <div data-animate="true">
+                    <a link="/path/to/index.html">Link text</a>
+                    <a link="http://external.site/index.html">Link text</a>
+                    <a link="//external.site/about.html">Link text</a>
+                    <a link="#" onclick="hide(this);">Hide</a>
+                </div>
+            </span>
+        </aside>
+
+
+        <ol>
+            <li>First</li>
+            <li>Second</li>
+        </ol>
+
+
+        <form action="/path/to/login" method="GET" novalidate>
+            <fieldset border="1">
+
+                <legend>Form heading</legend>
+
+                <ol begin="3">
+                    <li id="field">
+                        <label for="email">Email address:</label>
+                        <input type="email" name="email" required="required" />
+                    </li>
+
+                    <li id="field">
+                        <label for="account">Account type:</label>
+                        <select name="account" required>
+                            <value>Basic</value>
+                            <value preselect>Pro</value>
+                        </select>
+                    </li>
+
+                    <li id="field" class="last">
+                        <label for="password">Password:</label>
+                        <input type="text" name="password" required="required" pattern="[a-z]" />
+                    </li>
+                </ol>
+
+                <button type="submit">Login</button>
+
+            </fieldset>
+        </form>
+
+    </body>
+
+</html>

@@ -1,0 +1,50 @@
+#something {
+    float: left;
+    background: red;
+
+    position: absolute;
+    left: 0;
+}
+
+p {
+    margin-bottom: 1em;
+    word-spacing: 0.5em;
+}   
+
+span {
+    width: 100px;
+}
+
+div {
+    position: static;
+    display: block;
+    width: 100%;
+    background: white;
+
+    margin: 1px 2px 3px 5px 10px;
+}
+
+fieldset {
+    background: rgba(0,0,0,0);
+}
+
+#field {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-color: #444;
+    margin-bottom: 20px;
+}
+
+(type="email") {
+    background: blue;
+}
+
+ol {
+    li {
+        margin-bottom: 200px;
+    }
+}
+
+img {
+    background-color: green;
+}
