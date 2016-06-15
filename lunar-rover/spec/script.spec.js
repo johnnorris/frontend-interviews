@@ -1,4 +1,4 @@
-var moon, lander, rover;
+'use strict';
 
 beforeEach(function () {
     setFixtures('<div id="moon"></div><div id="lander"><div id="rover"></div></div>');

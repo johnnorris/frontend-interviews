@@ -14,12 +14,17 @@ module.exports = function (grunt) {
                     cwd: 'es6',
                     src: ['*.js'],
                     dest: 'js'
+                },{
+                    expand: true,
+                    cwd: 'es6/spec',
+                    src: ['*.js'],
+                    dest: 'spec'
                 }]
             }
         },
         watch: {
             js: {
-                files: ['es6/*.js'],
+                files: ['es6/**'],
                 tasks: ['babel'],
                 options: {
                     spawn: false
