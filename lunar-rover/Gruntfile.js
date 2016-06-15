@@ -14,11 +14,6 @@ module.exports = function (grunt) {
                     cwd: 'es6',
                     src: ['*.js'],
                     dest: 'js'
-                },{
-                    expand: true,
-                    cwd: 'es6/spec',
-                    src: ['*.js'],
-                    dest: 'spec'
                 }]
             }
         },
